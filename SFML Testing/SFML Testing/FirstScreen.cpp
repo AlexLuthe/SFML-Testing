@@ -9,7 +9,7 @@ FirstScreen::FirstScreen()
 	gameObjects.push_back(new GameObject(screen->world, b2Vec2(25, 10), b2_dynamicBody));
 
 	for (GameObject* GO : gameObjects) {
-		screen->gameObjectLoc.insert(std::map<GameObject*, sf::Vector2f, decltype(screen->GOcomp)>::value_type(GO, GO->sfShape.getPosition()));
+		screen->gameObjectLoc.insert(std::map<GameObject*, sf::Vector2f>::value_type(GO, GO->sfShape.getPosition()));
 		screen->gameObjects.push_back(GO);
 	}
 

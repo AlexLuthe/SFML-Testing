@@ -22,8 +22,7 @@ class Screen
 public:
 	Screen();
 	virtual ~Screen();
-	std::function < bool(GameObject*, GameObject*) > GOcomp = [](const GameObject* lhs, const GameObject* rhs) { return lhs->body->GetPosition().x < rhs->body->GetPosition().x; };
-	std::map < GameObject*, sf::Vector2f, decltype(GOcomp) > gameObjectLoc;
+	std::map <GameObject*, sf::Vector2f> gameObjectLoc;
 	std::vector<GameObject*> gameObjects;
 
 	World* world;

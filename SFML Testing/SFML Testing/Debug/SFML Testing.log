@@ -1,6 +1,4 @@
-﻿  main.cpp
-d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\main.cpp(30): warning C4244: 'argument': conversion from 'sf::Int32' to 'float', possible loss of data
-  Screen.cpp
+﻿  Screen.cpp
 d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\firstscreen.h(8): error C2143: syntax error: missing ';' before '*'
 d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\firstscreen.h(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\firstscreen.h(8): error C2238: unexpected token(s) preceding ';'
@@ -8,11 +6,9 @@ d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml te
   GameManager.cpp
   FirstScreen.cpp
 d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\gamemanager.h(20): error C2061: syntax error: identifier 'Screen'
-d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\gamemanager.h(21): error C2143: syntax error: missing ';' before '*'
-d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\gamemanager.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\gamemanager.h(21): error C3646: 'screen1': unknown override specifier
+d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\gamemanager.h(21): error C2059: syntax error: '='
 d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\gamemanager.h(21): error C2238: unexpected token(s) preceding ';'
-d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\firstscreen.cpp(12): error C2065: 'GOcomp': undeclared identifier
-d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\firstscreen.cpp(16): error C2039: 'gameManager': is not a member of 'Screen'
-  d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\screen.h(21): note: see declaration of 'Screen'
-d:\libraries\documents hdd\visual studio 2015\projects\sfml-testing-repo\sfml testing\sfml testing\firstscreen.cpp(16): error C2227: left of '->Load' must point to class/struct/union/generic type
   Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp

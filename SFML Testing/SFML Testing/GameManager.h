@@ -3,7 +3,7 @@
 #define __GameObject__
 #include "GameObject.h"
 #endif
-#ifndef __SCREEn__
+#ifndef __SCREEN__
 #define __SCREEN__
 #include "Screen.h"
 #endif

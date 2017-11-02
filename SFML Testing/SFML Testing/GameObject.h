@@ -18,6 +18,10 @@ public:
 	void Update(float deltaTime);
 	void Draw(sf::RenderWindow& window);
 
+	// Operators
+	bool operator< (const GameObject& rhs) { return body->GetPosition().x < rhs.body->GetPosition().x; }
+	bool operator> (const GameObject& rhs) { return body->GetPosition().x > rhs.body->GetPosition().x; }
+
 	b2BodyDef bodyDef;
 	b2Body* body;
 	b2PolygonShape bShape;
